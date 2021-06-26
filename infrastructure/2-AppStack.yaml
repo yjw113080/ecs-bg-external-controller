@@ -4,7 +4,7 @@ Description: Creates Task Definitions for Blue and Green Tasks.
 Parameters:
   BlueImage:
     Type: String
-    Default: nginx
+    Default: public.ecr.aws/nginx/nginx:latest
 
 Resources:
 
